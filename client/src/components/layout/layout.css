@@ -1,0 +1,21 @@
+.layout {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 5em auto;
+    background-image: url(../../assets/sky.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout>main {
+    grid-column: span 12;
+}
+
+.layout>header {
+    grid-column: span 12;
+}

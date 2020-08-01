@@ -1,0 +1,26 @@
+.add>input {
+    width: 50%;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid orangered;
+}
+
+.add>.button{
+    width: 100px;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.add>label {
+    color: orangered;
+    font-size: large;
+}

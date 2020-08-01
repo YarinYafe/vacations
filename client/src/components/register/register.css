@@ -1,0 +1,38 @@
+.register>* {
+    color: orangered;
+    margin: 50px;
+}
+
+.register {
+    margin: 50px;
+}
+
+.register>input {
+    width: 400px;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid orangered;
+}
+
+.register>label {
+    font-size: large;
+}
+
+.register>button {
+    font-size: large;
+    text-align: center;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.register>.message {
+    font-size: 1em;
+    text-align: center;
+    color: red;
+    border: 2px dotted black;
+}

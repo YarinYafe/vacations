@@ -1,0 +1,46 @@
+.login>* {
+    color: orangered;
+}
+
+.login>a {
+    margin: 10px;
+    float: left;
+}
+
+.login{
+    margin: 50px;
+}
+
+.login>input {
+    width: 400px;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid orangered;
+}
+
+.login>label {
+    font-size: large;
+}
+
+
+.login>button {
+    width: 100px;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.login>.message {
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}

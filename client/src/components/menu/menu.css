@@ -1,0 +1,10 @@
+.menu {
+    border-right: 1px solid gainsboro;
+    height: 100%;
+}
+
+.menu>* {
+    font-size: 1.5em;
+    margin: 25px;
+    color: orangered;
+}

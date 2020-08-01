@@ -1,0 +1,36 @@
+/* .vacations {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+} */
+
+.vacations>.show,.hide{
+    float: left;
+    margin: 5px;
+    border: 1px solid orangered;
+    background: none;
+    color: orangered;
+    font-size: medium;
+    cursor: pointer;
+}
+
+/* .vacations>.follow {
+    grid-column: span 12;
+}
+
+.vacations>.all {
+    grid-column: span 12;
+} */
+
+/* .vacations>button{
+    border: 1px solid orangered;
+    background: none;
+    color: orangered;
+    font-size: medium;
+    cursor: pointer;
+} */
